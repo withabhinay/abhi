@@ -19,15 +19,13 @@ export default function SpotlightPreview() {
       const rect = ref.current.getBoundingClientRect();
       setHeight(rect.height);
     }
-  }, [ref]);
+  }, []);
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start 10%", "end 50%"],
   });
 
-  const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
-  const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
     <div>
@@ -39,7 +37,7 @@ export default function SpotlightPreview() {
             Projects <br />
           </h1>
           <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg mx-auto">
-            Hope u 'll love it + Enjoy exploring it more + Open for feedbacks + <br /> can connect me on socials
+            Hope u &apos;ll love it + Enjoy exploring it more + Open for feedbacks + <br /> can connect me on socials
           </p>
 
           {/* About Me Section */}

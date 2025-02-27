@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { MdOutlineWeb } from "react-icons/md";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export const ProjectCard = ({
   title,
@@ -25,7 +26,7 @@ export const ProjectCard = ({
       transition={{ duration: 0.6, ease: "easeOut" }} // Smooth transition
     >
       {/* Project Image */}
-      <img src={imageUrl} alt={title} className="w-28 h-28 rounded-xl object-cover" />
+      <Image src={imageUrl} width={200} height={200} alt={title} className="w-28 h-28 rounded-xl object-cover" />
 
       {/* Project Details */}
       <div className="flex-1">

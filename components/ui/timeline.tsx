@@ -1,6 +1,5 @@
 "use client";
 import {
-  useMotionValueEvent,
   useScroll,
   useTransform,
   motion,
@@ -46,7 +45,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           About Me
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          I'm <strong>Abhinay Giri</strong>, from Sikkim🌄, India, in my 20s.<br /> ❤ connecting with people,  
+          I&apos;m <strong>Abhinay Giri</strong>, from Sikkim🌄, India, in my 20s.<br /> ❤ connecting with people,  
           nature🍀<br /> anime (sometimes) & building cool stuff!🚀
         </p>
       </div>

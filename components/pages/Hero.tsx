@@ -9,7 +9,7 @@ export default function Hero() {
       <h1 className="text-4xl sm:text-6xl font-extrabold flex items-center gap-1">
         Hey{" "}
         <span className=" text-4xl sm:text-6xl md:text-7xl inline-block hover:animate-waving-hand pb-1">👋</span> 
-        I'm Abhinay,
+        I&apos;m Abhinay,
       </h1>
       <h2 className="text-4xl sm:text-6xl font-bold mt-3">
         a{" "}
