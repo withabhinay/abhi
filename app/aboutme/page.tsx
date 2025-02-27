@@ -199,9 +199,9 @@ export default function TimelineDemo() {
   ];
 
   return (
-    <div className="w-full">
+    <div className="w-full  bg-black/[0.96]">
       <Timeline data={data} />
-      <div className="flex justify-center mt-10 item-center mb-10">
+      <div className="flex justify-center mt-10 item-center pb-10">
       <NavButton href="/" icon={FaHome} text="Home" color="text-blue-600"/>
       </div>
     </div>

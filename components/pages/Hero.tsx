@@ -6,12 +6,12 @@ export default function Hero() {
     <BackgroundBeamsWithCollision>
     <section className="h-96 flex flex-col items-center justify-center text-center  text-white px-6 overflow-hidden">
       
-      <h1 className="text-7xl font-extrabold flex items-center gap-1">
+      <h1 className="text-4xl sm:text-6xl font-extrabold flex items-center gap-1">
         Hey{" "}
-        <span className="inline-block hover:animate-waving-hand pb-1">👋</span> 
+        <span className=" text-4xl sm:text-6xl md:text-7xl inline-block hover:animate-waving-hand pb-1">👋</span> 
         I'm Abhinay,
       </h1>
-      <h2 className="text-6xl font-bold mt-3">
+      <h2 className="text-4xl sm:text-6xl font-bold mt-3">
         a{" "}
         <span className="bg-blue-600 px-3 py-1 rounded-lg text-white">
           developer
@@ -20,7 +20,7 @@ export default function Hero() {
       <p className="text-gray-400 mt-4">
         I am a Web developer & Web3 enthusiast
       </p>
-      <div className="mt-5 flex gap-5">
+      <div className="mt-5 flex gap-5 flex-col sm:flex-row">
         <Link
           href="/aboutme"
           className="px-6 py-2 text-lg font-semibold rounded-lg bg-white/10 backdrop-blur-md shadow-md transition duration-300 hover:bg-white/20 hover:backdrop-blur-lg"
