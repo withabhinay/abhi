@@ -12,14 +12,14 @@ import { FaHome } from "react-icons/fa";
 export default function SpotlightPreview() {
   const containerRef = useRef<HTMLDivElement>(null);
   const ref = useRef<HTMLDivElement>(null);
-  const [height, setHeight] = useState(0);
+  // const [height, setHeight] = useState(0);
 
-  useEffect(() => {
-    if (ref.current) {
-      const rect = ref.current.getBoundingClientRect();
-      setHeight(rect.height);
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (ref.current) {
+  //     const rect = ref.current.getBoundingClientRect();
+  //     setHeight(rect.height);
+  //   }
+  // }, []);
 
 
   return (
