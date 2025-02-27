@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useRef, useState } from "react";
+import React, {  useRef } from "react";
 import { Spotlight } from "@/components/ui/Spotlight";
 import { ProjectCard } from "@/components/ProjectCard";
 import { projectData } from "@/data/projects";
@@ -11,7 +11,7 @@ import { FaHome } from "react-icons/fa";
 
 export default function SpotlightPreview() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const ref = useRef<HTMLDivElement>(null);
+ // const ref = useRef<HTMLDivElement>(null);
   // const [height, setHeight] = useState(0);
 
   // useEffect(() => {
