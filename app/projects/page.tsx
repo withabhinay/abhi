@@ -5,7 +5,7 @@ import { ProjectCard } from "@/components/ProjectCard";
 import { projectData } from "@/data/projects";
 import Link from "next/link";
 import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
-import { motion, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
 import NavButton from "@/components/navbutton";
 import { FaHome } from "react-icons/fa";
 
@@ -21,7 +21,6 @@ export default function SpotlightPreview() {
     }
   }, []);
 
- 
 
   return (
     <div>
